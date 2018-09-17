@@ -1,7 +1,8 @@
-name: YOUcanDoThermodynamics
-channels:
-  - conda-forge
 dependencies:
-  - python
-  - pint
   - matplotlib
+  - numpy
+  - pint
+  - bokeh
+  - pip
+  - pip:
+      - julia
