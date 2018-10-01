@@ -1,0 +1,242 @@
+body {
+	font: 1rem system-ui, sans-serif;
+	-webkit-overflow-scrolling: touch;
+}
+
+.viewPort {
+	width:100vw;
+	height:90vh;
+	position: absolute;
+	bottom:0;
+}
+
+div {
+  width: 100%;
+  max-height: 14rem;
+  overflow: scroll;
+  position: relative;
+  padding:0;
+}
+
+.propertyTables div {
+	border: 0.2rem solid #005fb5;
+	position: absolute;
+	bottom: 0;
+
+}
+
+.propertyTables table {
+	width:110vw;
+ 	position: relative;
+	left:0;
+	right:1rem;
+ 	border-collapse: collapse;
+ 	empty-cells: show;
+}
+
+.propertyTables td, th {
+  /* padding: 0.1rem; */
+  padding-left: 0.5rem;
+  padding-right: 0.4rem;
+  /* font-weight: normal; */
+}
+
+
+/*
+⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮ begin sticky header ⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮
+ .propertyTables thead tr:nth-child(1),   if both of these lines are included
+ in webkit, top header moves down as body rows scroll up!
+ Selecting the row is suffiecient for sticky in webkit.
+ For Chrome, you must select the head
+⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮ */
+/* .propertyTables thead tr:nth-child(1), */
+.propertyTables thead  tr:nth-child(1) th {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #fff;
+	color: #FFF;
+	margin: 0;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	z-index: 2;
+	font-weight: bolder;
+}
+
+/* .propertyTables thead tr:nth-child(2), */
+.propertyTables thead tr:nth-child(2) th {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 1.25rem;
+	z-index:1;
+	/* background: #ff7d00; */
+	/* color: #fff; */
+}
+
+.propertyTables thead tr:nth-child(2) th {
+	text-align: left;
+	padding-left: 0.7rem;
+	padding-bottom: 0.1rem;
+}
+
+
+.propertyTables tbody th {
+  /* position: sticky; */
+  /* left: 0; */
+  font-weight: normal;
+}
+
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-9),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-8),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-7),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-6),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-5),
+.propertyTables thead tr:nth-child(1) th:nth-child(2n),
+.propertyTables tbody th:nth-child(2n),
+.propertyTables tbody td:nth-child(10n),
+.propertyTables tbody td:nth-child(10n-1),
+.propertyTables tbody td:nth-child(10n-2),
+.propertyTables tbody td:nth-child(10n-3) {
+	background: #dfebf5;
+	color: #005fb5;
+}
+
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-4),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-3),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-2),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n-1),
+.propertyTables thead tr:nth-child(2) th:nth-child(10n),
+.propertyTables thead tr:nth-child(1) th:nth-child(2n-1),
+.propertyTables tbody th:nth-child(2n-1),
+.propertyTables tbody td:nth-child(10n-8),
+.propertyTables tbody td:nth-child(10n-7),
+.propertyTables tbody td:nth-child(10n-6),
+.propertyTables tbody td:nth-child(10n-5) {
+	background: #fff6ef;
+	color: #005fb5;
+}
+
+
+
+.problemTable {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.problemTable table {
+	width: 80vw;
+	text-align: center;
+	border-spacing: 1rem 0;
+}
+
+.problemTable tr:nth-child(2) {
+}
+
+.problemTable tr:nth-child(2) td {
+	border: thin solid #005fb5;
+	/* background: #ffe910; */
+	border-radius: 1rem;
+	width: 5rem;
+	font-size: 0.8rem;
+	color: #ff7d00;
+}
+
+.problemTable tr:nth-child(1),
+.problemTable tr:nth-child(3) {
+	font-size: 0.75rem;
+}
+
+.seen {
+	font-weight: bolder;
+	color: #005fb5;
+}
+
+.unseen {
+	font-weight: bolder;
+}
+
+.buttons {
+	position: absolute;
+	width:15vw;
+	/* border:2px solid blue; */
+	top:10vh;
+	right:0;
+	/* display: block; */
+	overflow:hidden;
+	/* border-radius:50vw; */
+}
+
+.buttons button {
+	position:relative;
+	width: 5vw;
+	height: 5vw;
+	background-color: #4af2a1;
+	font-size: 3vw;
+	padding:0;
+	top:0vh;
+	left:0vw;
+	border-radius: 5vw;
+	border:none;
+	color: #fff;
+}
+
+.buttons span {
+	position: relative;
+	display: block;
+	top: -2vh;
+	right: -2vw;
+	width: 15vw;
+	height: 15vw;
+	z-index:2;
+	font-size: 7.5vw;
+	color:red;
+	background: rgba(255,0,0,0.3);
+	border-radius: 15vw;
+	border: 1vw solid red;
+}
+
+.uNits {
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 0.6rem;
+}
+
+.topHeader {
+	background: #ff7d00;
+	color: #fff;
+	height: 2.5rem;
+	font-weight: bolder;
+	font-size: 2rem;
+	padding-left: 0.5rem;
+	border-top-left-radius: 0.8rem;
+}
+
+.underHeader {
+	color: #ff7d00;
+	padding-left: 0.5rem;
+	padding-bottom: 0.3rem;
+	padding-top: 0.2rem;
+	border-left: 0.3rem solid #ff7d00;
+	border-bottom-left-radius: 0.8rem;
+}
+
+.dropDowns div {
+	position: relative;
+	right:left;
+	bottom: 0.5rem;
+	color: #ff7d00;
+	background-color: #ff7d00;
+	width:100%;
+	height:1.5rem;
+	border-bottom-left-radius: 0.8rem;
+	text-align: right;
+	/* overflow: hidden; */
+	padding:0.5rem;
+	/* padding-right:2rem; */
+}
+
+.dropDowns span {
+	position:relative;
+	/* right:1rem; */
+	/* left:100vw; */
+}

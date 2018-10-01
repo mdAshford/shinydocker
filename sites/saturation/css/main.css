@@ -1,0 +1,161 @@
+
+/* <style> */
+
+body {
+font: 1rem system-ui, sans-serif;
+font-weight: normal;
+
+}
+
+#satTable {
+position: absolute;
+bottom:0px;
+
+}
+
+div.topHeader {
+width: 100%;
+background-color: #FF7D00;
+color: #fff;
+font-size: 2rem;
+font-variant: petite-caps;
+font-weight: bolder;
+font-stretch: extra-expanded;
+padding: 0.5rem 1rem;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+
+div.bottomHeader {
+width: 100%;
+position: absolute;
+bottom:0px;
+background-color: #FF7D00;
+color: #fff;
+font-size: 0.7rem;
+font-variant: petite-caps;
+padding: 0.5rem 1rem;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+
+
+.saturationTable {
+/* max-width: 40rem; */
+max-height: 55vh;
+overflow: scroll;
+position: relative;
+-webkit-overflow-scrolling: touch;
+}
+
+
+div.saturationTable table {
+position: relative;
+/* border-spacing: 5px 12px; */
+border-collapse: collapse;
+font: 0.8rem system-ui, sans-serif;
+}
+
+.saturationTable tbody tr {
+         /* line-height: 1rem; */
+         border-top: 4px solid #white;
+         border-bottom: 4px solid #white;
+}
+
+
+
+
+div.saturationTable td, th {
+padding: 0.2rem;
+text-align: left;
+min-width: 4rem;
+/* font-weight: normal; */
+padding-left: 0.5rem;
+
+}
+
+
+div.saturationTable thead th {
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+background: #005FB5;
+color: #FFF;
+border-right: 0.25px dotted #fff;
+}
+
+div.saturationTable thead th:first-child {
+position: sticky;
+position: -webkit-sticky;
+left: 0;
+z-index: 2;
+}
+
+div.saturationTable thead th:last-child {
+position: sticky;
+position: -webkit-sticky;
+right: 0;
+z-index: 2;
+}
+
+div.saturationTable tbody th:first-child {
+position: sticky;
+position: -webkit-sticky;
+left: 0;
+background: #FFF;
+border-right: 2px solid #CCC;
+padding-left: 0.5rem;
+/* margin-right: -2rem; */
+}
+
+div.saturationTable tbody th:last-child {
+position: sticky;
+position: -webkit-sticky;
+right: 0;
+background: #FFF;
+border-left: 1px inset #CCC;
+}
+
+
+
+tr.T_Table {
+color: #0097df;
+/* background: #dfebf5; */
+}
+
+.P_Table {
+color: #ff7d00;
+/* background-color: #fff6ef; */
+
+}
+
+
+
+
+
+
+.uNits {
+font-style: italic;
+font-weight: lighter;
+font-size: 0.6rem;
+}
+
+
+
+.T_Table:hover {
+border-top: 4px solid #005fb5;
+border-bottom: 4px solid #005fb5;
+background: #dfebf5;
+color: #005fb5;
+font-weight: 900;
+}
+
+
+.P_Table:hover {
+border-top: 4px solid #ff7d00;
+border-bottom: 4px solid #ff7d00;
+background-color: #fff6ef;
+color: #ff7d00;
+font-weight: 900;
+}

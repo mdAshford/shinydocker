@@ -1,0 +1,49 @@
+/*
+⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮ begin sticky header ⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮ */
+.propertyTables thead tr:nth-child(1),   if both of these are included
+in webkit, top header moves down as body rows scroll up!
+Selecting the row is suffiecient for sticky in webkit.
+For Chrome, you must select the head
+⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮⋮ */
+
+
+div {
+  max-width: 40em;
+  max-height: 20em;
+  overflow: scroll;
+  position: relative;
+}
+
+table {
+  position: relative;
+
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.25em;
+}
+
+/* sticking <tr> alone is sufficient for webkit */
+/* for chrome, must stick <th> */
+
+thead th {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #000;
+  color: #FFF;
+}
+
+thead th:first-child {
+  /* left: 0; */
+  z-index: 1;
+}
+
+tbody th {
+  position: sticky;
+  position: -webkit-sticky;
+  /* left: 0; */
+  background: #FFF;
+  border-right: 1px solid #CCC;
+}
