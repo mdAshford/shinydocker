@@ -6,3 +6,7 @@ dependencies:
   - pip
   - pip:
       - julia
+channels:
+  - conda-forge
+dependencies:
+  - appmode
