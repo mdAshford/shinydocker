@@ -3,10 +3,9 @@ dependencies:
   - numpy
   - pint
   - bokeh
+  - appmode
   - pip
   - pip:
       - julia
 channels:
   - conda-forge
-dependencies:
-  - appmode
