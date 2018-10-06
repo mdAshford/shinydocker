@@ -1,3 +1,5 @@
+channels:
+  - conda-forge
 dependencies:
   - matplotlib
   - numpy
@@ -7,5 +9,3 @@ dependencies:
   - pip
   - pip:
       - julia
-channels:
-  - conda-forge
