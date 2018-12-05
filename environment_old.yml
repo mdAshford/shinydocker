@@ -1,7 +1,0 @@
-name: YOUcanDoThermodynamics
-channels:
-  - conda-forge
-dependencies:
-  - python
-  - pint
-  - matplotlib
