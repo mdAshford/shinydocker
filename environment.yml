@@ -9,3 +9,4 @@ dependencies:
   - pip
   - pip:
       - julia
+      - jupyter_contrib_nbextensions
