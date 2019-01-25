@@ -1,5 +1,0 @@
-jupyter contrib nbextension install --user
-jupyter nbextension enable equation-numbering/main
-
-cd ./notebooks
-jupyter lab index.ipynb
