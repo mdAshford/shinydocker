@@ -1,7 +1,8 @@
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/BENGAL-TIGER/YOUcanDoThermodynamics/master?filepath=.%2Fnotebooks/index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/BENGAL-TIGER/YOUcanDoThermodynamics/master?filepath=.%2Fnotebooks/index.ipynb)  
 
-$\require{cancel}  \require{bbox} \require{color} \require{enclose} \require{AMSmath} \require{AMSsymbols} \require{sinuitx} \require{mhchem}$
+$\require{cancel}  \require{bbox} \require{color} \require{enclose} \require{AMSmath} \require{AMSsymbols} \require{sinuitx} \require{mhchem}$  
+
 <div style="display:inline-block; position:absolute; top:0; right:0; color: #230e3e; font:italic 1em serif;">$\LaTeX$<span style="display:inline-block; vertical-align:bottom"><a href="https://www.mathjax.org">
     <img style="height:1.55em" title="Powered by MathJax"
     src="https://www.mathjax.org/badge/mj_logo.png"
@@ -16,11 +17,13 @@ youCAN do thermodynamics</p>
 
 + [Project Jupyter](https://jupyter.org)
 + [Dataquest.io Jupyter Notebook for Beginners: A Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial#thenotebookinterface)
-+ [Python.org](https://www.python.org) <span style="display:inline-block; vertical-align:text-bottom"><a href="https://www.python.org"><img style="height:1em;" src="./figures/flatPYTHONlogo.png" alt="python"></a></span>
-+ [The Julia Programming Language](https://www.julialang.org) <span style="display:inline-block; vertical-align:bottom"><a href="https://www.julialang.org"><img style="height:1.25em" src="./figures/juliaLOGO-three-balls.png" alt="julia" ></a></span>
++ [Python.org](https://www.python.org) <span style="display:inline-block; vertical-align:text-bottom"><a href="https://www.python.org"><img style="height:1em;" src="./notebooks/figures/flatPYTHONlogo.png" alt="python"></a></span>
++ [The Julia Programming Language](https://www.julialang.org) <span style="display:inline-block; vertical-align:bottom"><a href="https://www.julialang.org"><img style="height:1.25em" src="./notebooks/figures/juliaLOGO-three-balls.png" alt="julia" ></a></span>
 + [Python For Data Science Jupyter Notebook Cheat Sheet](./figures/Jupyter_Notebook_Cheat_Sheet.pdf)
 
-$$$$**Quickstart:**
+$$ $$
+
+**Quickstart:**
 Double-click cells to edit. Execute cells with ⇧⏎. The Help menu is pretty good.
   </div>
   <p style = "background-image: url(./figures/cream-tiles.png); background-color:blue; line-height: 2px; padding:0; margin-top:4px;" >&nbsp;</p>
