@@ -1,0 +1,81 @@
+
+/* comments, jackass */
+/*
+@import url("https://lalten.github.io/lmweb/style/latinmodern-roman.css");
+@import url("https://lalten.github.io/lmweb/style/latinmodern-mono-light.css");
+@import url("https://lalten.github.io/lmweb/style/latinmodern-mono.css");
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+*/
+
+@import url('./sanfrancisco-font.css');
+
+/*
+@font-face {
+  font-family: "SF Mono";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SFMono-Regular.otf");
+}*/
+  
+.rendered_html { 
+    font-size: 125%; 
+    font-family: 'SF Display', monospace; 
+    line-height:120%; 
+    color:#252215 !important;
+  
+}
+
+p { 
+    padding-bottom: 0.5em; 
+}
+
+hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../figures/bacgroundTiles.png); 
+}
+
+.big {
+    height: 1.5em;
+    border-top: 3px solid #9a2bfa;
+    border-bottom: 3px solid #9a2bfa;
+}
+
+.little {
+	height: 0.5rem;
+}
+
+.pip {
+	background-color:green;
+}
+
+/* .CodeMirror pre,
+div.output_area pre,
+pre,
+code,
+kbd,
+samp,
+div.input_area,
+div.prompt {
+    font-family: 'Latin Modern Mono', monospace; 
+    font-size: 120%; 
+    line-height: 125%;
+}
+
+div.output_area pre {
+    font-size: 140%; 
+    line-height: 150%;
+}     */
+
+/* div.input_area, */
+.CodeMirror pre,
+div.code_cell {
+/*     background-color: red; */
+    font-size: 110%; 
+    line-height: 150%;
+    font-family: 'SF Mono', times;    
+}
+
+
+
