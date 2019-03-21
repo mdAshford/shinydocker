@@ -77,5 +77,64 @@ div.code_cell {
     font-family: 'SF Mono', times;    
 }
 
+/*assumptions list*/
+/*
+.a-prefix-list {
+  color: purple !important;
+  list-style-type: lower-alpha !important;
+}
+
+.a-prefix-list li:before {
+  content: ")";
+  color: purple !important;
+  list-style-type: lower-alpha !important;
+}*/
+
+
+/*ol.a-prefix-list {
+	& ol {
+	  counter-reset: list;
+	}
+	& ol > li {
+	  list-style: none;
+	}
+	& ol > li:before {
+	  content: "(" counter(list, lower-greek) ") ";
+	  counter-increment: list;
+	}
+	
+}*/
+
+/*ol.a-prefix-list {
+  counter-reset: list;
+  & > li {
+    list-style: none;
+  }
+  & > li:before {
+  	content: "(" counter(list, lower-greek) ") ";
+  	counter-increment: list;
+  }
+}*/
+
+
+
+/*--- good*/
+ol.a-prefix-list {
+  counter-reset: list;
+}
+ol.a-prefix-list li {
+  list-style: none;
+  margin-bottom: 1.5em;
+  /*line-height:3em;*/
+}
+ol.a-prefix-list li sub:before {
+  counter-increment: list;
+  content: counter(list, decimal) ;
+}
+/*
+ol.a-prefix-list li sub:before {
+  content: counter(list, lower-greek);
+}*/
+
 
 
