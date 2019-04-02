@@ -18,11 +18,10 @@
 }*/
 
 .rendered_html {
-    font-size: 125%;
+    /* font-size: 125%; */
     font-family: 'SF Display', monospace;
-    line-height:120%;
+    /* line-height:120%; */
     color:#252215 !important;
-
 }
 
 p {
@@ -55,6 +54,15 @@ hr {
   text-align: center;
 }
 
+.verdict {
+	font-weight: 900;
+	text-align: center;
+	color:red;
+	font-stretch: ultra-expanded;
+	font-size: 3rem;
+}
+
+/*
 .rendered_html td:first-child,
 .rendered_html th:first-child {
   text-align: left;
@@ -64,18 +72,34 @@ hr {
 .rendered_html td:last-child {
   text-align: right;
 }
+*/
+
 
 .rendered_html th {
 	font-weight: normal;
 }
 
-.verdict {
-	font-weight: 900;
-	text-align: center;
-	color:red;
-	font-stretch: ultra-expanded;
-	font-size: 3rem;
+
+/* .text_cell_render pre span,
+.text_cell_render pre {
+	background-color: red;
+	padding: 0.75rem;
+} */
+
+div.text_cell_render pre {
+	padding: 1rem;
+	border:1px solid #c7bbd7;
 }
+
+
+div.text_cell_render pre,
+div.text_cell_render pre code {
+	background-color: #f3f0f6;
+}
+
+
+
+
 
 /* .CodeMirror pre,
 div.output_area pre,
@@ -98,9 +122,9 @@ div.output_area pre {
 /* div.input_area, */
 .CodeMirror pre,
 div.code_cell {
-/*     background-color: red; */
-    font-size: 110%;
-    line-height: 150%;
+    /* background-color: red; */
+    font-size: 90%;
+    /* line-height: 150%; */
     font-family: 'SF Mono', times;
 }
 
