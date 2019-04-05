@@ -15,7 +15,7 @@ LABEL maintainer="mdAshford"
 
 USER ${NB_UID}
 
-ADD notebooks/*.* /home/jovyan/notebooks
+ADD notebooks/*.* /home/jovyan/notebooks/
 
 # _____ wrap up and go home ____________________________________
 # env JUPYTER_ENABLE_LAB=TRUE
