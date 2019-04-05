@@ -1,0 +1,12 @@
+name: gradeSpeculator
+title: gradeSpeculator
+username:
+account: psydat
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 841363
+bundleId: 1988842
+url: https://psydat.shinyapps.io/gradeSpeculator/
+when: 1554460925.07128
+asMultiple: FALSE
+asStatic: FALSE
