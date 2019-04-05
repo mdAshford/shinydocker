@@ -55,9 +55,9 @@ hr {
 }
 
 .verdict {
-	font-weight: 900;
+	font-weight: 600;
 	text-align: center;
-	color:red;
+	/* background-color:#461d7c; */
 	font-stretch: ultra-expanded;
 	font-size: 3rem;
 }
