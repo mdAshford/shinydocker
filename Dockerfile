@@ -4,7 +4,7 @@
 FROM jupyter/datascience-notebook
 
 
-# Based on base-notebook from Jupyter Development Team.
+# Based on datascience-notebook from Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 
 
@@ -19,4 +19,4 @@ USER ${NB_UID}
 # env JUPYTER_ENABLE_LAB=TRUE
 env USER=$NB_USER
 # workdir /user/jovyan/work
-workdir $HOME/work
+# workdir $HOME/work
