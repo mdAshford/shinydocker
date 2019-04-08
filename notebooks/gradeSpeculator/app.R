@@ -31,7 +31,7 @@ ui <- fluidPage(
   
   p("This calculator is completely informational, hypothetical, 
     and is in no way official. It is offered with no warranty or 
-    guarantee of accuracy or completeness. Use at your own risk."),
+    guarantee of accuracy or completeness. ", strong("Use at your own risk.") ),
   
   # Sidebar layout with input and output definitions ----
   sidebarLayout(
