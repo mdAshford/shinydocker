@@ -8,5 +8,4 @@ dependencies:
   - appmode
   - pip
   - pip:
-      - julia
       - jupyter_contrib_nbextensions
