@@ -5,8 +5,14 @@ account: psydat
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 841363
+<<<<<<< HEAD
 bundleId: 1988842
 url: https://psydat.shinyapps.io/gradeSpeculator/
 when: 1554460925.07128
+=======
+bundleId: 1993431
+url: https://psydat.shinyapps.io/gradeSpeculator/
+when: 1554676701.7647
+>>>>>>> master
 asMultiple: FALSE
 asStatic: FALSE
