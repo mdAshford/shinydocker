@@ -22,3 +22,5 @@ ADD notebooks/ /home/jovyan/notebooks/
 env USER=$NB_USER
 # workdir /user/jovyan/work
 # workdir /
+
+rstudio
