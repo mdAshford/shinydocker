@@ -1,4 +1,12 @@
+channels:
+  - conda-forge
 dependencies:
   - matplotlib
   - numpy
   - pandas
+  - pint
+  - bokeh
+  - appmode
+  - pip
+  - pip:
+      - jupyter_contrib_nbextensions
