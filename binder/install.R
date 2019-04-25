@@ -15,3 +15,8 @@ install.packages("ggrepel")
 ### install GitHub packages (tag = commit, branch or release tag)
 # install.packages("devtools")
 # devtools::install_github("user/repo", ref = "tag")
+
+### 
+dyn.load(paste("CoolProp", .Platform$dynlib.ext, sep=""))
+source("CoolProp.R")
+cacheMetaData(1)
